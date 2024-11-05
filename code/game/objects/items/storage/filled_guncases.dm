@@ -170,11 +170,6 @@
 	new /obj/item/gun/ballistic/automatic/pistol/disposable(src)
 	new /obj/item/gun/ballistic/automatic/pistol/disposable(src)
 
-/obj/item/storage/guncase/p16
-	gun_type = /obj/item/gun/ballistic/automatic/assault/p16
-	mag_type = /obj/item/ammo_box/magazine/p16
-
-
 /obj/item/storage/guncase/skm
 	gun_type = /obj/item/gun/ballistic/automatic/assault/skm
 	mag_type = /obj/item/ammo_box/magazine/skm_762_40
