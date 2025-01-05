@@ -1,5 +1,5 @@
 #define ELZUOSE_EMAG_COLORS list("#00ffff", "#ffc0cb", "#9400D3", "#4B0082", "#0000FF", "#00FF00", "#FFFF00", "#FF7F00", "#FF0000")
-#define GOOD_SOIL list(/turf/open/floor/plating/grass, /turf/open/floor/plating/dirt, /turf/open/floor/ship/dirt, /turf/open/floor/grass/ship, /turf/open/floor/plating/asteroid/whitesands/grass, /turf/open/floor/grass/fairy/beach)
+#define GOOD_SOIL list(/turf/open/floor/plating/grass, /turf/open/floor/plating/dirt, /turf/open/floor/ship/dirt, /turf/open/floor/grass/ship, /turf/open/floor/plating/asteroid/whitesands/grass, /turf/open/floor/grass/fairy/beach, /turf/open/floor/plating/asteroid/dirt)
 #define DIG_TIME (7.5 SECONDS)
 #define ROOT_TIME (3 SECONDS)
 #define ROOT_CHARGE_GAIN (5 * ELZUOSE_CHARGE_SCALING_MULTIPLIER)
@@ -26,11 +26,12 @@
 	toxic_food = NONE
 	// Body temperature for ethereals is much higher then humans as they like hotter environments
 	bodytemp_normal = (HUMAN_BODYTEMP_NORMAL + 50)
-	bodytemp_heat_damage_limit = FIRE_MINIMUM_TEMPERATURE_TO_SPREAD // about 150C
+	bodytemp_heat_damage_limit = (HUMAN_BODYTEMP_NORMAL + 65)
 	// Cold temperatures hurt faster as it is harder to move with out the heat energy
-	bodytemp_cold_damage_limit = (T20C - 10) // about 10c
+	bodytemp_cold_damage_limit = (HUMAN_BODYTEMP_NORMAL - 20)
 
-	max_temp_comfortable = HUMAN_BODYTEMP_NORMAL + 100
+	min_temp_comfortable = (HUMAN_BODYTEMP_NORMAL - 10)
+	max_temp_comfortable = HUMAN_BODYTEMP_NORMAL + 55
 
 	hair_color = "fixedmutcolor"
 	hair_alpha = 140

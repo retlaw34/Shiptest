@@ -66,7 +66,7 @@
 			L.adjustFireLoss(2)
 			if(L)
 				L.adjust_fire_stacks(20) //dipping into a stream of plasma would probably make you more flammable than usual
-				L.adjust_bodytemperature(-rand(50,65)) //its cold, man
+				L.adjust_bodytemperature(-rand(10,20)) //its cold, man
 				if(ishuman(L))//are they a carbon?
 					var/list/plasma_parts = list()//a list of the organic parts to be turned into plasma limbs
 					var/list/robo_parts = list()//keep a reference of robotic parts so we know if we can turn them into a plasmaman
@@ -329,19 +329,19 @@
 
 /obj/structure/flora/rock/icy
 	name = "icy rock"
-	icon_state = "icemoonrock1"
+	icon_state = "snowrock_1"
 
 /obj/structure/flora/rock/icy/Initialize()
 	. = ..()
-	icon_state = "icemoonrock[rand(1,3)]"
+	icon_state = "snowrock_[rand(1,4)]"
 
 /obj/structure/flora/rock/pile/icy
 	name = "icey rocks"
-	icon_state = "icemoonrock4"
+	icon_state = "snowrock_4"
 
 /obj/structure/flora/rock/pile/icy/Initialize()
 	. = ..()
-	icon_state = "icemoonrock4"
+	icon_state = "snowrock_4"
 
 //decals//--
 /obj/effect/turf_decal/snowdin_station_sign

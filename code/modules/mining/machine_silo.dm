@@ -16,6 +16,7 @@ GLOBAL_LIST_EMPTY(silo_access_logs)
 	. = ..()
 	var/static/list/materials_list = list(
 		/datum/material/iron,
+		/datum/material/copper,
 		/datum/material/glass,
 		/datum/material/silver,
 		/datum/material/gold,
@@ -25,6 +26,12 @@ GLOBAL_LIST_EMPTY(silo_access_logs)
 		/datum/material/titanium,
 		/datum/material/bluespace,
 		/datum/material/plastic,
+		/datum/material/carbon,
+		/datum/material/sulfur,
+		/datum/material/lead,
+		/datum/material/quartz,
+		/datum/material/hellstone,
+		/datum/material/silicon,
 		)
 	AddComponent(/datum/component/material_container, materials_list, INFINITY, allowed_types=/obj/item/stack, _disable_attackby=TRUE)
 
@@ -35,6 +42,9 @@ GLOBAL_LIST_EMPTY(silo_access_logs)
 
 	connected = null
 
+	return ..()
+
+/obj/machinery/ore_silo/on_deconstruction()
 	var/datum/component/material_container/materials = GetComponent(/datum/component/material_container)
 	materials.retrieve_all()
 

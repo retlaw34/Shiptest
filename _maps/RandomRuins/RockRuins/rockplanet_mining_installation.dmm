@@ -273,7 +273,7 @@
 /turf/open/floor/mineral/titanium/tiled/rockplanet,
 /area/overmap_encounter/planetoid/cave/explored)
 "bx" = (
-/obj/structure/vein/classtwo,
+/obj/structure/vein/rockplanet/classtwo,
 /obj/effect/turf_decal/box,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/asteroid/rockplanet/wet/cracked,
@@ -7629,9 +7629,9 @@
 	dir = 4
 	},
 /obj/structure/table,
-/obj/item/storage/backpack/duffelbag/med/surgery{
-	pixel_y = 13;
-	pixel_x = -3
+/obj/item/storage/case/surgery{
+	pixel_x = 0;
+	pixel_y = 3
 	},
 /obj/item/reagent_containers/glass/bottle/morphine,
 /obj/item/reagent_containers/glass/bottle/morphine{
@@ -9616,7 +9616,7 @@
 /turf/open/floor/plating/asteroid/rockplanet/wet/lit,
 /area/overmap_encounter/planetoid/rockplanet/explored)
 "ZE" = (
-/obj/structure/vein/classthree{
+/obj/structure/vein/rockplanet/classthree{
 	mining_charges = 80;
 	max_mobs = 18;
 	spawn_distance_max = 7

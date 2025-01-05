@@ -3979,37 +3979,6 @@
 /obj/structure/speaking_tile,
 /turf/closed/mineral/ash_rock,
 /area/errorroom)
-"aLY" = (
-/obj/item/rupee,
-/turf/open/floor/plating/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0
-	},
-/area/errorroom)
-"aLZ" = (
-/turf/open/floor/plating/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0
-	},
-/area/errorroom)
-"aMa" = (
-/obj/effect/landmark/error,
-/turf/open/floor/plating/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0
-	},
-/area/errorroom)
-"aMb" = (
-/obj/structure/signpost/salvation{
-	icon = 'icons/obj/structures.dmi';
-	icon_state = "ladder10";
-	invisibility = 100
-	},
-/turf/open/floor/plating/ashplanet/wateryrock{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	planetary_atmos = 0
-	},
-/area/errorroom)
 "aMc" = (
 /obj/structure/lattice,
 /turf/open/space,
@@ -4660,7 +4629,7 @@
 /area/syndicate_mothership/control)
 "aQg" = (
 /obj/structure/closet,
-/obj/item/storage/backpack/duffelbag/med/surgery,
+/obj/item/storage/case/surgery,
 /obj/machinery/iv_drip,
 /obj/item/roller,
 /obj/item/storage/firstaid/regular,
@@ -6861,6 +6830,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/ferry)
+"czT" = (
+/obj/item/rupee,
+/turf/open/floor/plating/asteroid/waterplanet{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	planetary_atmos = 0
+	},
+/area/errorroom)
 "cAS" = (
 /obj/machinery/shower{
 	dir = 8
@@ -7865,6 +7841,13 @@
 /obj/item/melee/energy/ctf,
 /turf/open/floor/plasteel/dark,
 /area/ctf)
+"eDl" = (
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/decal/cleanable/oil,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning,
+/turf/open/floor/plasteel,
+/area/centcom/ferry)
 "eDS" = (
 /obj/machinery/airalarm/directional/east,
 /obj/structure/filingcabinet/filingcabinet,
@@ -9006,6 +8989,17 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supply)
+"gQA" = (
+/obj/structure/signpost/salvation{
+	icon = 'icons/obj/structures.dmi';
+	icon_state = "ladder10";
+	invisibility = 100
+	},
+/turf/open/floor/plating/asteroid/waterplanet{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	planetary_atmos = 0
+	},
+/area/errorroom)
 "gTh" = (
 /obj/structure/table/wood,
 /obj/item/storage/photo_album,
@@ -10294,6 +10288,15 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/mineral/plastitanium/red,
 /area/centcom)
+"jFf" = (
+/obj/effect/turf_decal/industrial/warning,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/reagent_dispensers/fueltank,
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/centcom/ferry)
 "jGz" = (
 /obj/item/clipboard,
 /obj/item/folder/red,
@@ -12169,6 +12172,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/ferry)
+"nmb" = (
+/turf/open/floor/plating/asteroid/waterplanet{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	planetary_atmos = 0
+	},
+/area/errorroom)
 "nnb" = (
 /obj/structure/chair,
 /obj/effect/landmark/thunderdome/observe,
@@ -13013,6 +13022,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
+"oYu" = (
+/obj/effect/landmark/error,
+/turf/open/floor/plating/asteroid/waterplanet{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	planetary_atmos = 0
+	},
+/area/errorroom)
 "oYE" = (
 /obj/effect/turf_decal/corner/opaque/green{
 	dir = 8
@@ -13255,16 +13271,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
-"pwQ" = (
-/obj/effect/turf_decal/industrial/warning,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/reagent_dispensers/fueltank,
-/obj/item/weldingtool/experimental,
-/obj/machinery/power/terminal{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/centcom/ferry)
 "pxL" = (
 /obj/effect/turf_decal/corner/opaque/blue,
 /obj/effect/turf_decal/corner/opaque/blue{
@@ -16311,14 +16317,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom)
-"wbx" = (
-/obj/structure/reagent_dispensers/fueltank,
-/obj/item/weldingtool/experimental,
-/obj/effect/decal/cleanable/oil,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/industrial/warning,
-/turf/open/floor/plasteel,
-/area/centcom/ferry)
 "wbz" = (
 /obj/machinery/computer/security,
 /obj/effect/turf_decal/industrial/warning,
@@ -18023,13 +18021,13 @@ aaa
 aaa
 aLV
 aLW
-aLY
-aLY
-aLY
-aLZ
-aLY
-aLY
-aLY
+czT
+czT
+czT
+nmb
+czT
+czT
+czT
 aLW
 aLV
 aaa
@@ -18280,13 +18278,13 @@ aaa
 aaa
 aLV
 aLW
-aLY
-aLY
-aLY
-aLZ
-aLY
-aLY
-aLY
+czT
+czT
+czT
+nmb
+czT
+czT
+czT
 aLW
 aLV
 aaa
@@ -18537,13 +18535,13 @@ aaa
 aaa
 aLV
 aLW
-aLY
-aLY
-aLY
-aLZ
-aLY
-aLY
-aLY
+czT
+czT
+czT
+nmb
+czT
+czT
+czT
 aLW
 aLV
 aaa
@@ -18794,13 +18792,13 @@ aaa
 aaa
 aLV
 aLW
-aLZ
-aLZ
-aLZ
-aLZ
-aLZ
-aLZ
-aLZ
+nmb
+nmb
+nmb
+nmb
+nmb
+nmb
+nmb
 aLW
 aLV
 aaa
@@ -19051,13 +19049,13 @@ aaa
 aaa
 aLV
 aLW
-aLY
-aLY
-aLY
-aLZ
-aLZ
-aLZ
-aLZ
+czT
+czT
+czT
+nmb
+nmb
+nmb
+nmb
 aLW
 aLV
 aaa
@@ -19308,13 +19306,13 @@ aaa
 aaa
 aLV
 aLX
-aLY
-aLY
-aLY
-aLZ
-aLZ
-aMa
-aMb
+czT
+czT
+czT
+nmb
+nmb
+oYu
+gQA
 aLW
 aLV
 aaa
@@ -19565,13 +19563,13 @@ aaa
 aaa
 aLV
 aLW
-aLY
-aLY
-aLY
-aLZ
-aLZ
-aLZ
-aLZ
+czT
+czT
+czT
+nmb
+nmb
+nmb
+nmb
 aLW
 aLV
 aaa
@@ -19822,13 +19820,13 @@ aaa
 aaa
 aLV
 aLW
-aLZ
-aLZ
-aLZ
-aLZ
-aLZ
-aLZ
-aLZ
+nmb
+nmb
+nmb
+nmb
+nmb
+nmb
+nmb
 aLW
 aLV
 aaa
@@ -20079,13 +20077,13 @@ aaa
 aaa
 aLV
 aLW
-aLY
-aLY
-aLY
-aLZ
-aLY
-aLY
-aLY
+czT
+czT
+czT
+nmb
+czT
+czT
+czT
 aLW
 aLV
 aaa
@@ -20336,13 +20334,13 @@ aaa
 aaa
 aLV
 aLW
-aLY
-aLY
-aLY
-aLZ
-aLY
-aLY
-aLY
+czT
+czT
+czT
+nmb
+czT
+czT
+czT
 aLW
 aLV
 aaa
@@ -20593,13 +20591,13 @@ aaa
 aaa
 aLV
 aLW
-aLY
-aLY
-aLY
-aLZ
-aLY
-aLY
-aLY
+czT
+czT
+czT
+nmb
+czT
+czT
+czT
 aLW
 aLV
 aaa
@@ -53410,7 +53408,7 @@ amD
 aoe
 aoe
 amD
-wbx
+eDl
 vkq
 vkq
 vkq
@@ -56751,7 +56749,7 @@ ipU
 hYc
 lmp
 anT
-pwQ
+jFf
 sSM
 avc
 amD

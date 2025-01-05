@@ -2,6 +2,7 @@
 
 /turf/open/floor/plating/asteroid/wasteplanet
 	name = "dry rock"
+	icon = 'icons/turf/planetary/wasteplanet.dmi'
 	icon_state = "wasteplanet0"
 	base_icon_state = "wasteplanet"
 	turf_type = /turf/open/floor/plating/asteroid/wasteplanet
@@ -269,6 +270,7 @@
 	max_integrity = 800
 	integrity = 800
 	baseturfs = /turf/open/floor/plating/wasteplanet
+	girder_type = /obj/structure/girder/wasteworld
 
 /turf/closed/wall/r_wall/wasteplanet/Initialize(mapload, inherited_virtual_z)
 	. = ..()
@@ -280,6 +282,7 @@
 	max_integrity = 600
 	integrity = 600
 	baseturfs = /turf/open/floor/plating/wasteplanet/rust
+	girder_type = /obj/structure/girder/wasteworld
 
 /turf/closed/wall/r_wall/rust/wasteplanet/Initialize(mapload, inherited_virtual_z)
 	. = ..()
@@ -290,6 +293,7 @@
 	max_integrity = 200
 	integrity = 200
 	baseturfs = /turf/open/floor/plating/wasteplanet
+	girder_type = /obj/structure/girder/wasteworld
 
 /turf/closed/wall/wasteplanet/Initialize(mapload, inherited_virtual_z)
 	. = ..()
@@ -300,6 +304,7 @@
 	max_integrity = 100
 	integrity = 100
 	baseturfs = /turf/open/floor/plating/wasteplanet/rust
+	girder_type = /obj/structure/girder/wasteworld
 
 /turf/closed/wall/rust/wasteplanet/Initialize(mapload, inherited_virtual_z)
 	. = ..()
@@ -325,3 +330,8 @@
 	. = ..()
 	if(prob(25))
 		alter_integrity(-rand(0,500))
+
+//girlder
+
+/obj/structure/girder/wasteworld
+	max_integrity = 40
